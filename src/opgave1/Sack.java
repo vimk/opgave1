@@ -1,3 +1,4 @@
+//klasse til opgave 1 i første bundne forudsætning
 package opgave1;
 /**
   * @author Kim Vammen
@@ -7,13 +8,12 @@ public class Sack {
     private int weight;
     
     public Sack(String navn){
-        navn = name;
+        name = navn;
         weight = 0;
     }
     
-    public int addWeight(int x){
-        x = x +1;
-        return x; 
+    public void addWeight(int x){
+        weight = weight + x; 
     }
     public int emptySack(){
         return weight = 0;
